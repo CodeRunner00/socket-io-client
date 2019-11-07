@@ -7,7 +7,7 @@ class App extends Component {
     super();
     this.state = {
       response: false,
-      endpoint: "localhost:3001",
+      endpoint: "https://fathomless-atoll-63559.herokuapp.com/",
       name: '',
       messages: [],
       message: '',
